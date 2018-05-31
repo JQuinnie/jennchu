@@ -106,7 +106,7 @@ a:hover {
 }
 
 .flex-about ul {
-  flex-basis: 500px;
+  flex-basis: 525px;
   margin: 0;
   padding: 4% 0 4% 4%; /*media query mobile need to change to equal all around once stacked*/
   font-size: 24px;
@@ -117,9 +117,14 @@ a:hover {
 }
 
 .aboutme {
-  padding: 20px 40px 80px 40px;
+  padding: 20px 40px 40px 40px;
   font-family: 'Architects Daughter', cursive;
   font-size: 24px;
+}
+
+.aboutme-skills {
+  font-size: 24px;
+  padding: 20px 25px 50px 25px;
 }
 
 .contact-icon {
