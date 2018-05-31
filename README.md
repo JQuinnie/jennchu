@@ -1,1 +1,3 @@
-# jennchu
+# Hi! I'm Jenn Chu!
+
+🤩
