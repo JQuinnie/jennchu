@@ -10,6 +10,9 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+h1 {
   font-size: 90px;
 }
 
@@ -125,6 +128,7 @@ a:hover {
 .aboutme-skills {
   font-size: 24px;
   padding: 20px 25px 50px 25px;
+  text-align: center;
 }
 
 .contact-icon {
@@ -214,4 +218,38 @@ a:hover {
 .overlay-icon:hover {
   -webkit-filter: invert(.5);
   filter: invert(.5);
+}
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+
+  .flex-nav ul {
+    font-size: 20px;
+  }
+
+  .flex-about ul {
+    padding: 5% 5% 5% 10%;
+  }
+
+  .aboutme {
+    font-size: 20px;
+  }
+
+  .overlay-img {
+    width: 500px;
+    height: auto;
+  }
+
+  .overlay-text ul {
+    font-size: 20px;
+    width: 500px;
+    height: auto;
+  }
+
+  .overlay-icon {
+    width: 100px;
+    height: auto;
+  }
 }
