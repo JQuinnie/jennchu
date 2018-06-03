@@ -12,10 +12,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-size: 90px;
-}
-
 .flex-container {
   display: -webkit-flex;
   display: flex;
@@ -251,5 +247,66 @@ a:hover {
   .overlay-icon {
     width: 100px;
     height: auto;
+  }
+}
+
+@media all and (max-width: 375px) {
+  body {
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .flex-nav ul {
+    font-size: 16px;
+  }
+
+  .flex-about ul {
+    font-size: 16px;
+    padding: 5% 5% 5% 10%;
+  }
+
+  .img-mug {
+    width: 150px;
+    height: auto;
+  }
+
+  .aboutme {
+    font-size: 16px;
+  }
+
+  .aboutme-skills {
+    font-size: 16px;
+  }
+
+  .overlay-img {
+    width: 300px;
+    height: auto;
+  }
+
+  .overlay-text ul {
+    font-size: 16px;
+    width: 300px;
+    height: auto;
+  }
+
+  .overlay-text li {
+    font-size: 12px;
+    padding-left: 0px;
+  }
+
+  .overlay-icon {
+    width: 64px;
+    height: auto;
+  }
+
+  .arrow-top {
+    font-size: 12px;
   }
 }
