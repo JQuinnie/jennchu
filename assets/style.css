@@ -42,7 +42,7 @@ body {
   display: flex;
   flex-direction: row;
 }
-.portfolio-content {
+.project-content {
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -83,7 +83,7 @@ a:hover {
   color: black;
 }
 
-.flex-about, .flex-portfolio, .flex-contact {
+.flex-about, .flex-project, .flex-contact {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -94,7 +94,7 @@ a:hover {
   align-items: center;
 }
 
-.flex-portfolio {
+.flex-project {
   flex-direction: column;
   justify-content: center;
 }
@@ -161,7 +161,7 @@ a:hover {
   margin: 10px;
 }
 
-/* Portfolio: On hover events */
+/* Project: On hover events */
 .overlay-proj {
   position: relative;
 }
